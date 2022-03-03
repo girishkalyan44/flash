@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-01T15:20:50 IST" name="Test Automation - Amazon" finished-at="2022-03-01T15:21:02 IST" duration-ms="12071">
+    <groups>
+    </groups>
+    <test started-at="2022-03-01T15:20:50 IST" name="Functional Testing - Amazon" finished-at="2022-03-01T15:21:02 IST" duration-ms="12071">
+      <class name="com.qa.testscripts.Workwithpopups">
+        <test-method is-config="true" signature="setProperty(java.lang.String,java.lang.String)[pri:0, instance:com.qa.testscripts.Workwithpopups@4efc180e]" started-at="2022-03-01T15:20:51 IST" name="setProperty" finished-at="2022-03-01T15:20:56 IST" duration-ms="4822" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://register.rediff.com/register/register.php?FormName=user_details]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setProperty -->
+        <test-method signature="popup()[pri:0, instance:com.qa.testscripts.Workwithpopups@4efc180e]" started-at="2022-03-01T15:20:56 IST" name="popup" finished-at="2022-03-01T15:21:02 IST" duration-ms="6474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- popup -->
+        <test-method is-config="true" signature="breakdown()[pri:0, instance:com.qa.testscripts.Workwithpopups@4efc180e]" started-at="2022-03-01T15:21:02 IST" name="breakdown" finished-at="2022-03-01T15:21:02 IST" duration-ms="372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- breakdown -->
+      </class> <!-- com.qa.testscripts.Workwithpopups -->
+    </test> <!-- Functional Testing - Amazon -->
+  </suite> <!-- Test Automation - Amazon -->
+</testng-results>
